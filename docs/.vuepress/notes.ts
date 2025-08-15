@@ -38,7 +38,7 @@ export const Notes = defineNotesConfig({
               collapsed: true,
               icon: 'material-symbols:markdown-outline',
               dir: 'drawing',
-              items: ['Shared-Systems', 'File-By-File'], //'Extended', 'Advanced'
+              items: ['Shared-Systems', 'File-By-File', 'Coral-Screen'], //'Extended', 'Advanced'
             },
           ],
         },
