@@ -42,7 +42,20 @@ export const Notes = defineNotesConfig({
             },
           ],
         },
- 
+        {
+          text: 'Website Pages',
+          icon: 'fluent-mdl2:edit-create',
+          collapsed: false,
+          items: [
+            {
+              text: 'Website Pages',
+              collapsed: true,
+              icon: 'material-symbols:markdown-outline',
+              dir: 'pages',
+              items: ['EjsFiles', 'Header'], //'Extended', 'Advanced'
+            },
+          ],
+        },
         // {
         //   text: 'Something else',
         //   icon: 'lucide:box',
